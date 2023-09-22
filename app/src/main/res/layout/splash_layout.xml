@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_vertical"
-    tools:context=".SplashActivity">
+    tools:context=".SplashActivity"
+    android:background="@drawable/verdef">
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -16,11 +17,6 @@
         android:scaleType="centerCrop"
         android:src="@drawable/logo" />
 
-    <ProgressBar
-        android:id="@+id/pgbLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        />
+
 
 </LinearLayout>
