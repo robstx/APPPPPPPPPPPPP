@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cvb"
+    android:orientation="vertical"
+    tools:context=".logar_acitivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jkl" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableEnd="@drawable/baseline_email"
+        android:hint="Insira seu e-mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:padding="10sp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableEnd="@drawable/baseline_email"
+        android:hint="Insira seu e-mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:padding="10sp"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Sign up"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/textinpreto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sing in with Social Media"
+            android:textAlignment="center"
+            android:textColor="#454141" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="140sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/camera_24" />
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/baseline_whatsapp_24" />
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="15sp"
+            android:src="@drawable/icons8_mac_os" />
+
+    </LinearLayout>
+</LinearLayout>
