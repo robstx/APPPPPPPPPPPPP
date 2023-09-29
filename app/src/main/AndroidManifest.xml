@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".cadastro_acitivity"
+            android:exported="false" />
+        <activity
             android:name=".logar_acitivity"
             android:exported="false" />
         <activity
